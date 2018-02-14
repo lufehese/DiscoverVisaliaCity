@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_navdiscover"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_do"
+            android:icon="@drawable/ic_directions"
+            android:title="Do" />
+        <item
+            android:id="@+id/nav_eat"
+            android:icon="@drawable/ic_restaurant"
+            android:title="Eat" />
+        <item
+            android:id="@+id/nav_stay"
+            android:icon="@drawable/ic_local_hotel"
+            android:title="Stay" />
+    </group>
+
+    <group
+        android:id="@+id/menu_navmain"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@drawable/ic_room"
+            android:title="Discover" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_line_weight"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorites" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:title="Instagram" />
+        </menu>
+    </item>
+
+</menu>
